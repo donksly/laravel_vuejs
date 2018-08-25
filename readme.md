@@ -2,4 +2,4 @@
 <p align="center"><img src="https://vuejs.org/images/logo.png"></p>
 
 <p align="center">## Simple CRUD<p>
-<p align="center">A Vue JS Laravel simplle CRUD<p>
+<p align="center">A Vue JS & Laravel simplle CRUD<p>
