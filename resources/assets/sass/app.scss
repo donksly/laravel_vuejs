@@ -1,0 +1,83 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//Font Awesome
+@import "~font-awesome/scss/font-awesome";
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+body{
+  background: white;
+  width: 100%;
+  color: grey;
+  font-size: 12px;
+}
+
+.body_content h1{
+  text-align: center;
+}
+.body_content{
+  padding: 5%;
+}
+
+.panel-heading ol li a{
+  color: teal;
+}
+
+.panel-heading ol li a:hover{
+  text-decoration: none;
+}
+
+body table button{
+  font-size: 12px;
+}
+
+table ul li{
+  display: inline-table;
+}
+
+.modal-dialog{
+  font-size: 12px;
+}
+
+.modal-body input{
+  width: 100%;
+}
+
+#addressName, #addressEmail, #addressCompany, #addressCity, #addressAddress
+{
+  width: 237%;
+}
+
+#editAddressName, #editAddressEmail, #editAddressCompany, #editAddressCity, #editAddressAddress{
+  width: 377%;
+}
+
+#close_modal_btn,#edit_close_modal_btn{
+  margin-left: auto;
+}
+
+#gridSystemModalLabel{
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#open_modal_to_add:focus, #open_modal_to_add:active{
+  border: none;
+  border-radius: 0 !important;
+  border-color: white;
+}
+
+#reset_modal_btn{
+  display: none;
+}
